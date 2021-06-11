@@ -1,0 +1,213 @@
+@media (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100vw;
+
+    .nav {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      .shadow-bg {
+        width: 100%;
+      }
+
+      .nav_container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+          width: 10%;
+        }
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          margin: 0;
+          text-align: center;
+          li {
+            margin: 0 0.3rem;
+            text-align: center;
+            a {
+              font-family: $parafont;
+              font-size: 0.7rem;
+              padding: 0;
+              margin: 0;
+              color: $maincolor;
+            }
+          }
+        }
+      }
+    }
+
+    #whyus {
+      width: 100vw;
+      .whyus_container {
+        margin-top: 2rem;
+
+        button {
+          width: 60%;
+          a {
+            padding: 0.3rem 0.5rem;
+          }
+        }
+      }
+    }
+
+    #stats {
+      width: 100vw;
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    #benefits {
+      width: 100vw;
+      .benefits_container {
+        margin: 0 auto;
+
+        .benefits_box1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 33%;
+          width: 100%;
+
+          .benefits_text {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            h2 {
+              font-size: 2rem;
+            }
+            .benefits_paragraph {
+              font-size: 0.8rem;
+            }
+          }
+          .box_img {
+            height: 40%;
+          }
+        }
+
+        .benefits_box2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 33%;
+          width: 100%;
+
+          .benefits_text {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            h2 {
+              font-size: 2rem;
+            }
+            p {
+              font-size: 0.8rem;
+            }
+          }
+          .box_img {
+            height: 40%;
+          }
+        }
+      }
+
+      .benefits_box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 33%;
+        width: 100%;
+
+        .mini_box {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin-right: 0;
+          width: 80%;
+
+          h2 {
+            font-size: 2rem;
+            padding-top: 1rem;
+          }
+          p {
+            font-size: 0.8rem;
+          }
+        }
+
+        .minibox_img {
+          margin-top: 1rem;
+          height: 40%;
+          width: 80%;
+        }
+      }
+    }
+
+    #price {
+      width: 100vw;
+      font-family: $parafont;
+      .price_container {
+        margin-bottom: 2rem;
+      }
+    }
+
+    #contact {
+      width: 100vw;
+      height: 600px;
+
+      .contact_container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        padding: 0;
+
+        .contact_info {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+          height: 30%;
+          margin-bottom: 2rem;
+
+          .contact_info_icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            margin-bottom: 1.5rem;
+
+            img {
+              margin: 0.5rem 0;
+            }
+          }
+
+          h1 {
+            font-size: 2rem;
+          }
+
+          .contact_input {
+            height: 70%;
+          }
+        }
+      }
+    }
+
+    #footer {
+      width: 100vw;
+      margin-bottom: 0;
+    }
+  }
+}
